@@ -8,8 +8,10 @@ Este proyecto fue refactorizado para mejorar la organización del código y la e
 
 Durante la refactorización se realizaron los siguientes ajustes principales:
 
-- Separé los widgets en archivos individuales para que el código sea más limpio y fácil de mantener.  
-- Renombré los archivos siguiendo una convención más clara (por ejemplo, `login_page.dart`, `home_page.dart`, etc.).  
+- Separé widgets en archivos individuales.  
+- Reemplace código duplicado con `PasswordFieldWidget`.  
+- Modifique el funcionamiento del `BottomNavigationBar`.  
+- Mejoré la UI con `ListTile`, `Card` y uso de `const`.
 
 ## Capturas 
 
